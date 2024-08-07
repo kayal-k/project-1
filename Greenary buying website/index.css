@@ -1,0 +1,179 @@
+.logo{
+    color: black;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.searchbar{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    padding: 10px;
+    color: gray;
+}
+
+.searchbar:hover{
+    color: black;
+}
+/*.search{
+    color:black;
+    padding:2px ;
+}*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top:0;
+    background-color:azure;
+}
+button{
+    background-color: black;
+    color: white;
+ 
+}
+.summary{
+    padding-left: 50px;
+    font-size: larger;
+    background-color:azure ;
+    border: 500px;
+    
+}
+.img1{
+    float:right;
+    background-position:right-top;
+    padding-right: 50px;
+    transition-duration:2s;
+    
+}
+.img1:hover{
+    transform:scale(1.1);
+
+}
+.container{
+    border:solid grey 2px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    
+    
+}
+.content{
+    padding: 10px;
+    display:flex ;
+    justify-content: space-around;
+    
+}
+.about{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+i{
+    font-size: xx-large;
+    margin-bottom: 5px;
+}
+
+/*products*/
+.plant{
+    text-align: center;
+}
+.plant-img{
+    /*border:solid grey 2px;*/
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    transition-duration:2s;
+}
+.plant-img:hover{
+    transform:scale(1.1);
+
+}
+.plant-container{
+    padding: 20px;
+    display:flex ;
+    justify-content: space-around;
+    background-color: azure;
+    text-align: center;
+}
+#plant-1{
+    
+    width: 50px;
+    position: relative;
+    z-index: 3;
+    bottom: 50px;
+}
+#plant-2{
+    width: 50px;
+    height: 100px;
+    position: static;
+}
+.para1{
+  text-align: center;
+}
+/*best seller*/
+.best-container{
+    padding: 20px;
+    display:flex ;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.best-img{
+    transition-duration:2s;
+}
+.best-img:hover{
+    transform:scale(1.1);
+}
+
+/*client*/
+
+.client{
+    background-color: azure;
+    display: flex;
+    
+
+} 
+.test{
+    background-color: white;
+    width: 5px;
+    height: 10px;
+} 
+.img2{
+    padding-right:20px;
+    
+}
+   
+.news{
+    text-align: center;
+}
+/*footer*/
+.footer{
+    background-color: azure;
+}
+.icons{
+    display: flex;
+    gap: 5px;
+}
+.input textarea{
+    /*width: 20px;
+    padding-left: 200px;
+    margin-left: 200px;*/
+    width: 50%;
+    height: 30px;
+    padding: 15px;
+    border-radius:5px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-color: #bfbfbf;
+    outline: none;
+    resize: none;
+}
+
+textarea:is(focus,:valid){
+ border-color: #4671ea;
+}
+
+
